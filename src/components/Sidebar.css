@@ -1,0 +1,57 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  flex: 0.1;
+  height: 95vh;
+  background-color: var(--primary);
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+.sidebar > img {
+  object-fit: contain;
+  height: 50px;
+  margin-top: 1rem;
+}
+.sidebar_icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.sidebar_icons > .MuiSvgIcon-root {
+  font-size: 3rem;
+  color: var(--secondary);
+  margin-top: 3rem;
+  padding: 10px;
+
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+}
+.sidebar_icons > .MuiSvgIcon-root:hover {
+  background-color: rgba(211, 211, 211, 0.397);
+  transform: scale(1.2);
+  border-radius: 50px;
+}
+.sidebar_icons > .logout {
+  font-size: 3rem;
+  color: var(--secondary);
+  margin-top: 3rem;
+
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+}
+.sidebar_icons > .logout > .MuiSvgIcon-root {
+  font-size: 3rem;
+  color: var(--secondary);
+  transition: transform 100ms ease-in;
+  padding: 10px;
+  cursor: pointer;
+}
+.sidebar_icons > .logout > .MuiSvgIcon-root:hover {
+  background-color: rgba(211, 211, 211, 0.397);
+  transform: scale(1.2);
+  border-radius: 50px;
+}

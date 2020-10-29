@@ -1,0 +1,72 @@
+.profile {
+  border-right: 1px solid lightgray;
+  flex: 0.3;
+  color: var(--secondary);
+}
+.profile_avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+.profile_avatar > .avatar {
+  object-fit: contain;
+  height: 10rem;
+  width: 10rem;
+}
+.profile_avatar > h1 {
+  margin-top: 1rem;
+  font-weight: 400;
+}
+.profile_avatar > h3 {
+  font-weight: 100;
+}
+
+.profile_online {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.online_now {
+  display: flex;
+  justify-content: space-between;
+}
+.online_now > h2 {
+  font-weight: 100;
+}
+.online_now_persons {
+  display: flex;
+  margin-top: 1rem;
+}
+.online_now {
+  padding: 0.3rem;
+}
+.online_now > h1 {
+  position: absolute;
+  color: var(--primary);
+  margin-left: 1.8rem;
+  margin-top: 1rem;
+}
+.chat_rooms {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+.chat_rooms_search {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 2rem;
+  padding: 0.5rem;
+}
+.chat_rooms_search > input {
+  flex: 1;
+  border: none;
+  outline-width: 0;
+}
+.sidebar_chats {
+  margin-top: 1rem;
+  overflow: hidden;
+}

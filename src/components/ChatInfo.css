@@ -1,0 +1,36 @@
+.chatInfo {
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  align-items: center;
+  color: var(--secondary);
+}
+.chatInfo > .avatar {
+  height: 10rem;
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+.chatInfo > h2 {
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.chatInfo > p {
+  font-weight: 250;
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+.shared_icon {
+  display: flex;
+  margin: 1rem;
+  align-items: center;
+}
+.shared_icon > p {
+  font-weight: 250;
+  font-size: 15px;
+  margin-left: 1rem;
+}
+.shared_files {
+  margin-top: -1rem;
+}

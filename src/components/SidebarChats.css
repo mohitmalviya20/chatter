@@ -1,0 +1,26 @@
+.sidebarChats {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+  transition: 200ms ease-in;
+}
+.sidebarChats:hover {
+  background-color: lightgray;
+  border-radius: 1rem;
+}
+.sidebarChats > .sidebarChats_avatar {
+  object-fit: contain;
+  height: 4rem;
+  width: 4rem;
+}
+.sidebarChats > div > h2 {
+  font-weight: 300;
+}
+.sidebarChats > div > p {
+  font-weight: 250;
+  font-size: 15px;
+  color: #243743;
+}
+.sidebarChats > div {
+  margin-left: 0.5rem;
+}

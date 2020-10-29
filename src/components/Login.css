@@ -1,0 +1,26 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+  color: var(--primary);
+}
+.login > button {
+  margin-top: -20rem;
+  width: 300px;
+  height: 50px;
+  font-size: x-large;
+  border-radius: 2rem;
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+.login > button:hover {
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+.login > h2 {
+  margin-top: -20rem;
+  font-size: xxx-large;
+  font-weight: 300;
+  letter-spacing: 1rem;
+}
